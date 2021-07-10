@@ -1,0 +1,166 @@
+a {
+    text-decoration: none;
+}
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    font-size: 1.1em;
+}
+
+.nav-item .btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.1em;
+}
+
+.jumbotron {
+    color: white;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../image/carousel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+}
+
+.jumbotron .container {
+    margin-top: 150px;
+}
+
+.jumbotron h1 {
+    font-size: 80px;
+}
+
+.jumbotron h4 {
+    font-weight:normal;
+    margin-top: 0px;
+}
+
+
+.booking-form {
+    display: block;
+    position: relative;
+}
+
+.booking-form .container{
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.booking-form .container .row{
+    border-radius: 4px;
+}
+
+.booking-form .desc {
+    width: 20%;
+}
+
+.booking-form .desc p{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+
+.booking-form .btn{
+    width: 100%;
+}
+
+.about {
+    margin-top: 450px;
+}
+
+.aboutimg {
+    color: white;
+    background-image: url(../image/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.about .desc {
+}
+
+.about .imge {
+    position: relative;
+}
+
+.about .col-6{
+    height: 250px;
+    position: absolute;
+    top:-60px;
+    right: 40px;
+    z-index: -1;;
+}
+
+.about .col-5{
+    height: 80px;
+    position: absolute;
+    bottom: -40px;
+    right: 90px;
+    color: white;
+}
+
+.about .text-center h5{
+    margin:0;
+    padding: 0;
+}
+
+.rooms {
+    margin-top: 350px;
+}
+
+.rooms .roomimg-1 {
+    color: white;
+    background-image: url(../image/room1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+
+.rooms .roomimg-2 {
+    color: white;
+    background-image: url(../image/room2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+
+.rooms .roomimg-3 {
+    color: white;
+    background-image: url(../image/room3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+
+.rooms .col-6 {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.rooms .col-6 .text-center h5{
+    margin: 0;
+    padding: 10px;
+}
+
+.text-center span {
+    font-size: 15px;
+}
