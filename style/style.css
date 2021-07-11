@@ -177,6 +177,10 @@ a:hover {
     height: 700px;
 }
 
+.facilities .desc {
+    margin-top: 150px;
+}
+
 .feature-icon {
     background-color: rgba(0,0,0,0.4) ;
     width: 200px;
