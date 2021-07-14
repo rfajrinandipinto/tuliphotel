@@ -300,3 +300,22 @@ footer {
 .contact-form .details{
     margin-top: 100px;;
 }
+
+
+footer .container {
+    margin-top: 20px;
+}
+
+.gallery {
+    margin-top: 100px;;
+}
+
+.navbar-brand img{
+    height:3em;
+}
+
+@media screen and (max-width: 767.98px) { 
+    .bg-dark .container{
+        text-align: center;
+    }
+ }

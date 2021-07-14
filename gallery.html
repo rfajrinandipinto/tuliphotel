@@ -30,7 +30,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
     <div class="container">
-      <a class="navbar-brand" href="#">TULIP</a>
+      <a class="navbar-brand" href="index.html"><img src="image/logo.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -69,31 +69,125 @@
   </div>
   <!-- Jumbotron End -->
 
+  <!-- Gallery -->
+  <div class="container gallery">
+    <div class="row">
+  <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+    <img
+      src="image/gallery/gallery_1.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+
+    <img
+      src="image/gallery/gallery_2.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+  </div>
+
+  <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+    <img
+      src="image/gallery/gallery_3.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+
+    <img
+      src="image/gallery/gallery_4.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="image/gallery/gallery_5.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+
+    <img
+      src="image/gallery/gallery_6.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt=""
+    />
+  </div>
+</div>
+  </div>
+
+<!-- Gallery -->
+
+ <!-- Booking Form -->
+ <div class="booking-form-add mt-5">
+  <div class="booking-form">
+  <div class="container col-lg-8 col-md-10">
+      <div class="row rounded justify-content-md-center align-items-center bg-dark p-3">
+      <div class="col-3 text-warning desc">
+        <p>BOOK</p>
+        <P>YOUR ROOM</P>
+        <p>NOW!</p>
+      </div>  
+      <div class="col-3">
+        <input type="text" class="form-control mb-3" placeholder="Check In" aria-label="Check In" onfocus="(this.type='date')" onblur="(this.type='text')">
+        <input type="text" class="form-control" placeholder="Check Out" aria-label="Check Out" onfocus="(this.type='date')" onblur="(this.type='text')">
+      </div>
+      <div class="col-3">
+        <select class="form-select form-control mb-3" aria-label="Adult">
+          <option selected hidden>Adult</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+        <select class="form-select form-control" aria-label="Child">
+          <option selected hidden>Child</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+      </div>
+      <div class="col-3">
+        <select class="form-select form-control mb-3" aria-label="Rooms">
+          <option selected hidden>Rooms</option>
+          <option value="1">Regular</option>
+          <option value="2">Premium</option>
+          <option value="3">Krabby Deluxe</option>
+        </select>
+        <button type="button" class="btn btn-warning fw-bold">Book Now</button>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+
+<!-- Booking Form end -->
+
+
 
 <!-- Footer -->
 <footer class="bg-dark py-3">
   <div class="container">
     <div class="row d-flex justify-content-center">
-      <div class="col-2">
+      <div class="col-sm-6 col-lg-2 col-md-4">
         <h4 class="text-warning mb-3">Tulip Hotel</h4>
         <div class="mb-3">
-          <img src="image/vector/ig.svg" alt="">
+          <a href="https://www.instagram.com/amikomjogja/"><img src="image/vector/ig.svg" alt=""></a>  
           <img src="image/vector/fb.svg" alt="">
           <img src="image/vector/tw.svg" alt="">
         </div>
       </div>
-      <div class="col-2">
+      <div class="col-sm-6 col-lg-2 col-md-4">
         <h5 class="mb-3" >Quick Link</h5>
-        <a href=""><p>About</p></a>
-        <a href=""><p>Rooms</p></a>
-        <a href=""><p>Contact</p></a>
+        <a href="about.html"><p>About</p></a>
+        <a href="rooms.html"><p>Rooms</p></a>
+        <a href="contact.html"><p>Contact</p></a>
       </div>
-      <div class="col-2">
+      <div class="col-sm-6 col-lg-2 col-md-4">
         <h5 class="mb-3">Reservation</h5>
         <p>Telp: 089589457339</p>
         <p>Email: tulip@gmail.com</p>
       </div>
-      <div class="col-2">
+      <div class="col-sm-6 col-lg-2 col-md-12">
         <h5 class="mb-3">Location</h5>
         <p>	Jalan Ring Road Utara Condong Catur Depok-Sleman</p>
       </div>
